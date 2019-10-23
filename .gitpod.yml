@@ -1,0 +1,9 @@
+tasks:
+  - init: npm install
+    command: >
+      npm install -g @angular/cli &
+      npm start
+
+ports:
+  - port: 4200
+    onOpen: open-preview
